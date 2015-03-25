@@ -16,6 +16,7 @@ public class Punto2D {
         this.y = y;
     }
     
+    
     public void moverX(float desplazamientoX){
         this.x+=desplazamientoX;
     }
