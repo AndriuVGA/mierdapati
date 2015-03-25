@@ -5,7 +5,7 @@ public class Punto2D {
     private float y;
 
     public void setX(float x) {
-        this.x = x;
+        this.x = x ;
     }
 
     public float getX() {
@@ -14,6 +14,14 @@ public class Punto2D {
 
     public void setY(float y) {
         this.y = y;
+    }
+    
+    public void moverX(float desplazamientoX){
+        this.x+=desplazamientoX;
+    }
+    
+    public void moverY(float desplazamientoY){
+        this.y+=desplazamientoY;
     }
 
     public float getY() {
